@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@+id/loginFragment">
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.assignment.ui.Account"
+        android:label="账户"
+        tools:layout="@layout/fragment_account"/>
+
+    <fragment
+        android:id="@+id/activityFragment"
+        android:name="com.example.assignment.ui.activity"
+        android:label="活动"
+        tools:layout="@layout/fragment_activity"/>
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.assignment.ui.favorite"
+        android:label="收藏"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.assignment.ui.home"
+        android:label="首页"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.assignment.ui.Message"
+        android:label="消息"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/activityAddPostFragment"
+        android:name="com.example.assignment.ui.activityAddPost"
+        android:label="activityAddPost"
+        tools:layout="@layout/fragment_activity_add_post"/>
+
+    <fragment
+        android:id="@+id/activityUpdatePost"
+        android:name="com.example.assignment.ui.activityUpdatePost"
+        android:label="activityUpdatePost"
+        tools:layout="@layout/fragment_activity_update_post"/>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.assignment.ui.Login"
+        android:label="登录"
+        tools:layout="@layout/fragment_login" />
+
+
+    <fragment
+        android:id="@+id/helpCentreFragment"
+        android:name="com.example.assignment.ui.HelpCentre"
+        android:label="帮助中心"
+        tools:layout="@layout/fragment_help_centre" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.assignment.ui.Register"
+        android:label="注册"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/profileInfoFragment"
+        android:name="com.example.assignment.ui.profileInfo"
+        android:label="个人资料"
+        tools:layout="@layout/fragment_profile_info" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.assignment.ui.Setting"
+        android:label="设置"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.assignment.ui.EditProfile"
+        android:label="编辑资料"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/emailFragement"
+        android:name="com.example.assignment.ui.Email"
+        android:label="忘记密码"
+        tools:layout="@layout/fragment_email" />
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.assignment.ui.ChangePassword"
+        android:label="修改密码"
+        tools:layout="@layout/fragment_change_password" />
+
+    <fragment
+        android:id="@+id/messageChatFragment"
+        android:name="com.example.assignment.ui.MessageChat"
+        android:label="MessageChat" />
+    <fragment
+        android:id="@+id/roomDetails4"
+        android:name="com.example.assignment.ui.roomDetails"
+        android:label="fragment_room_details"
+        tools:layout="@layout/fragment_room_details" />
+    <fragment
+        android:id="@+id/mapSearchFragment"
+        android:name="com.example.assignment.ui.SearchLocation"
+        android:label="MapSearch" />
+    <fragment
+        android:id="@+id/addLocationFragment"
+        android:name="com.example.assignment.ui.AddLocation"
+        android:label="AddLocation" />
+    <fragment
+        android:id="@+id/editLocationFragment"
+        android:name="com.example.assignment.ui.EditLocation"
+        android:label="EditLocation" />
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.assignment.ui.First"
+        android:label="首页"
+        tools:layout="@layout/fragment_first">
+    </fragment>
+    <fragment
+        android:id="@+id/messageProfileInfo"
+        android:name="com.example.assignment.ui.MessageProfileInfo"
+        android:label="MessageProfileInfo" />
+
+    <fragment
+        android:id="@+id/activityRoomDetails"
+        android:name="com.example.assignment.ui.activityRoomDetails"
+        android:label="活动房间详情"
+        tools:layout="@layout/fragment_activity_room_details" />
+
+</navigation>

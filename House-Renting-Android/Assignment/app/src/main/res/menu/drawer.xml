@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/selected_home"
+        android:title="首页" />
+    <item
+        android:id="@+id/messageFragment"
+        android:icon="@drawable/selected_message"
+        android:title="消息" />
+
+    <item
+        android:id="@+id/activityFragment"
+        android:icon="@drawable/ic_activity_selected"
+        android:title="活动" />
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/selected_favorite"
+        android:title="收藏" />
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/selected_account"
+        android:title="账户" />
+    <group android:id="@+id/accountSet">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit"
+            android:title="退出登录" />
+    </group>
+</menu>

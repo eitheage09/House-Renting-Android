@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">空白Fragment</string>
+
+    <string name="Register_caption">注册以使用我们的服务</string>
+    <string name="Login_caption">登录以使用我们的服务</string>
+    <string name="RoomRental">租房通常为您提供独立的私人房间，并可共享房产的其他区域（房屋、联排别墅、公寓单元）。请查看房源信息或联系房东确认是否包含独立或共用浴室。</string>
+    <string name="RoomFurnished">查看您的房源信息，确认房间或共享生活空间是否配备家具。如有其他问题，请向房东询问在共享居住安排中应注意的事项。</string>
+    <string name="Scam">在寻找租房时，请查看一些有用的提示以识别和避免诈骗及租房欺诈：如何识别和避免租房欺诈，以及在寻找室友时避免诈骗的技巧。</string>
+    <string name="RoomFilter">房间筛选功能可帮助您将结果缩小到仅显示房间列表。您可以继续使用所有其他筛选条件（如卧室数量、浴室数量），这些条件仍将参考房产级别的详细信息（例如三居室房屋、两卫房屋）。结合使用，您可以在特定大小的房屋、联排别墅或公寓中查找房间列表。</string>
+    <string name="Commitments">加入合租社区不仅仅是关于如何保持厨房清洁的规定。合租是一种共享体验，通过共享空间和共享经历帮助许多人蓬勃发展。无论您或其他成员做什么，都可能对他人产生影响。</string>
+    <string name="Cleans">房屋成员负责清洁和购买日常清洁用品。与您的室友讨论清洁时间安排以及如何最好地分担责任和费用。</string>
+    <string name="Rules">与他人合住应专注于建立和维持高标准期望。不仅是对他人，也是对我们自己。我们发现这通常是社区生活中的常见问题，因此我们通过制定房屋规则来消除这一障碍。</string>
+    <string name="ExactRent">跟进：还有其他入住费用吗？您如何以及何时支付租金？</string>
+    <string name="COVID">如果成员发烧（38°C或以上）、咳嗽或呼吸困难，应及时就医。前往诊所或急诊室前请提前电话预约。</string>
+
+    <string-array name="language">
+        <item>英文</item>
+        <item>马来语</item>
+        <item>中文</item>
+    </string-array>
+
+    <string-array name="roomType">
+        <item>单人间</item>
+        <item>中号房</item>
+        <item>主卧</item>
+    </string-array>
+
+    <string name="baidu_maps_api_key" >LaAWeNWgCN0pOJlCIK5h4DHEErMpfTIq</string>
+
+</resources>
